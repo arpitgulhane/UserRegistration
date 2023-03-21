@@ -20,7 +20,7 @@ public class UserRegistration {
         boolean Number = Pattern.matches("[91 ]+[0-9]{10}", "91 9284530926");
         System.out.println("Number is Valid ? \n"+Number);
 
-        boolean Password = Pattern.matches("[a-zA-Z0-9]{8}", "1234567a");
+        boolean Password = Pattern.matches("^(?=.*[A-Z]).{8}", "A2345678");
         System.out.println("Password is Valid ? \n"+Password);
     }
 
