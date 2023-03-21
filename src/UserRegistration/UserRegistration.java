@@ -13,6 +13,10 @@ public class UserRegistration {
         boolean LastName = Pattern.matches("[A-Za-z]{3,10}", "Gulhane");
         System.out.println("Given input is RIGHT ? \n"+result);
         System.out.println("LastName is Valid ? \n"+LastName);
+
+        boolean Email = Pattern.matches("[a-zA-Z0-9]+[@][a-z]+[.][a-z]{2,}", "arpit99@microsoft.in");
+        System.out.println("Email is Valid ? \n"+Email);
+
     }
 
 }
