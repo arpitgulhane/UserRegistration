@@ -17,6 +17,9 @@ public class UserRegistration {
         boolean Email = Pattern.matches("[a-zA-Z0-9]+[@][a-z]+[.][a-z]{2,}", "arpit99@microsoft.in");
         System.out.println("Email is Valid ? \n"+Email);
 
+        boolean Number = Pattern.matches("[91 ]+[0-9]{10}", "91 9284530926");
+        System.out.println("Number is Valid ? \n"+Number);
+
     }
 
 }
